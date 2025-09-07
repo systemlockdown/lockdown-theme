@@ -11,5 +11,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.systemlockdown.lockdowntheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
         <postStartupActivity implementation="com.github.systemlockdown.lockdowntheme.startup.MyProjectActivity" />
+        <themeProvider id="com.github.systemlockdown.dark.pearl" path="/themes/dark-pearl.theme.json" />
     </extensions>
 </idea-plugin>
